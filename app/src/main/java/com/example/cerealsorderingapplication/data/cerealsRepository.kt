@@ -1,3 +1,7 @@
+package com.example.cerealsorderingapplication.data
+
+import Cereal
+
 class CerealRepository {
     private val cereals = listOf(
         Cereal("Wheat", 100.0),

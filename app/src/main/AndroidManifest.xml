@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CerealsOrderingApplication"
         tools:targetApi="31">
         <activity
+            android:name=".Layouttest"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
@@ -24,10 +27,16 @@
             </intent-filter>
         </activity>
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/cerealList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-        
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place Order" />
     </application>
-
-
 
 </manifest>

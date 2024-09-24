@@ -1,4 +1,5 @@
 import androidx.lifecycle.LiveData
+import com.example.cerealsorderingapplication.data.CerealRepository
 
 class CerealViewModel : ViewModel() {
     private val repository = CerealRepository()
